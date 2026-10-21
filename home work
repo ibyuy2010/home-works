@@ -1,0 +1,7 @@
+name = input("Enter student name: ")
+grade = float(input("Enter student grade: "))
+
+if grade >= 60:
+    print(name, "Passed!")
+else:
+    print(name, "Failed!")
